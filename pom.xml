@@ -26,6 +26,11 @@
 		<sonar.password>passw0rd</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		mvn clean verify sonar:sonar \
+                -Dsonar.projectKey=manish \
+                -Dsonar.host.url=http://54.179.36.253:9000 \
+                -Dsonar.login=sqp_48aa5b13017c8b38a00313a21f234cc695fc718f
+		
 
 	</properties>
 
